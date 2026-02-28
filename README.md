@@ -10,7 +10,7 @@ Add repository to your project's `composer.json`:
 
 ```json
 "repositories": [
-  { "type": "vcs", "url": "git@github.com:YOUR_USER/jamal-toasts.git" }
+  { "type": "vcs", "url": "git@github.com:jamal1973/jamal-toasts.git" }
 ],
 "require": {
   "jamal/toasts": "dev-main"
