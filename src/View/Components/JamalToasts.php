@@ -8,7 +8,7 @@ final class JamalToasts extends Component
 {
     public function render()
     {
-        return view('jamal-toasts::components.toasts', [
+        return view('jamal-toasts::components.toast', [
             'toasts'   => jamal_toast()->pull(),
             'position' => config('jamal_toasts.position', 'top-right'),
             'max'      => (int) config('jamal_toasts.max', 4),

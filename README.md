@@ -15,3 +15,11 @@ Add repository to your project's `composer.json`:
 "require": {
   "jamal/toasts": "dev-main"
 }
+```
+
+Then publish package files:
+
+```bash
+php artisan vendor:publish --tag=jamal-toasts-assets
+php artisan vendor:publish --tag=jamal-toasts-config
+```

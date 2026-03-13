@@ -12,5 +12,6 @@ return [
   'assets' => [
     'css' => '/vendor/jamal-toasts/toasts.css',
     'js'  => '/vendor/jamal-toasts/toasts.js',
+    'icons_css' => 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css',
   ],
 ];

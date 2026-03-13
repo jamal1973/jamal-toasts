@@ -1,4 +1,7 @@
 @once
+  @if(!empty($assets['icons_css']))
+    <link rel="stylesheet" href="{{ $assets['icons_css'] }}">
+  @endif
   <link rel="stylesheet" href="{{ $assets['css'] ?? '/vendor/jamal-toasts/toasts.css' }}">
   <script defer src="{{ $assets['js'] ?? '/vendor/jamal-toasts/toasts.js' }}"></script>
 @endonce
